@@ -102,7 +102,7 @@ Per epoch training time: `99.5562 sec` (Speedup of 2.2x)
 
 Yeonhong Park (parkyh96@gmail.com)
 
-Sunhong Min (sunhongmin10@gmail.com)
+Sunhong Min (sunhongmin@snu.ac.kr)
 
 ## Citation
 
