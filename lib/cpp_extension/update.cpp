@@ -36,7 +36,7 @@ void cache_update(torch::Tensor cache, torch::Tensor address_table, torch::Tenso
 }
 
 PYBIND11_MODULE(update, m) {
-    m.def("cache_update", &cache_update, "__");
+    m.def("cache_update", &cache_update, "evict & insert cache entries with the given indices");
 }
 
 

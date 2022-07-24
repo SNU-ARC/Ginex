@@ -80,6 +80,5 @@ torch::Tensor load_int64(std::string file, int64_t size){
 PYBIND11_MODULE(mt_load, m) {
     m.def("load_float32", &load_float32, "multi-threaded load (float32)");
 	m.def("load_int64", &load_int64, "multi-threaded load (int64)");
-//	m.def("fill_neighbor_cache", &fill_neighbor_cache, "multi-threaded load of neighbor information of given indices");
 }
 

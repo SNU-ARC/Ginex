@@ -113,8 +113,8 @@ torch::Tensor gather_ginex(std::string feature_file, torch::Tensor idx, int64_t 
 
 
 PYBIND11_MODULE(gather, m) {
-    m.def("gather_ginex", &gather_ginex, "direct io version of index selection with cache with opt", py::call_guard<py::gil_scoped_release>());
-    m.def("gather_mmap", &gather_mmap, "my c++ extension code for mmap gather", py::call_guard<py::gil_scoped_release>());
+    m.def("gather_ginex", &gather_ginex, "gather for ginex", py::call_guard<py::gil_scoped_release>());
+    m.def("gather_mmap", &gather_mmap, "gather for PyG+", py::call_guard<py::gil_scoped_release>());
 }
 
 
