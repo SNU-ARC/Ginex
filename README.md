@@ -63,7 +63,7 @@ Follow the instructions below to install the requirements and run a toy example 
     ```
 3. Preprocess (Neighbor cache construction)
     ```console
-    python3 create_neigh_cache --neigh-cache-size 6000000000
+    python3 create_neigh_cache.py --neigh-cache-size 6000000000
     ````
 4. Get `PYTHONPATH`
     ```console
