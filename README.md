@@ -2,7 +2,7 @@
 
 Ginex is a GNN training system for efficient training of a billion-scale dataset on a single machine by using SSD as a memory extension. Ginex accelerates the entire training procedure by provably optimal in-memory caching of feature vectors which reside on SSD without any negative implication on training quality.
 
-Please refer to the full paper [here](https://link.to.paper).
+Please refer to the full paper [here](http://arc.snu.ac.kr/pubs/vldb22_ginex.pdf).
 
 ## Installation and Running a Toy Example
 
