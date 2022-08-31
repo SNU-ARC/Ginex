@@ -109,8 +109,12 @@ Sunhong Min (sunhongmin@snu.ac.kr)
 Please cite our paper if you find it useful for your work:
 
 ```
-@inproceedings{},
-  author={},
-  booktitle={},
-  year={},
+@inproceedings{park2022vldb,
+ author    = {Yeonhong Park and Sunhong Min and Jae W. Lee},
+ title     = {Ginex: SSD-enabled Billion-scale Graph Neural Network Training on a Single Machine via Provably Optimal In-memory Caching},
+ booktitle = {Proceedings of the VLDB Endowment},
+ volume    = {15},
+ number    = {11},
+ year      = {2022}
+}
 ```
